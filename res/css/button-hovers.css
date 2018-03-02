@@ -1,0 +1,49 @@
+:root {
+  --button-hover: #20c20e;
+  --button-default: #71E664;
+  --background-default: #17181c;
+}
+
+.fill {
+  transition: all .4s ease;
+  padding: 12px 28px;
+  background-color: var(--background-default);
+  color: var(--button-default);
+}
+
+.fill:hover {
+  background-color: var(--button-hover);
+  color: white;
+}
+
+.fill:hover, .fill:focus {
+  border-color: var(--button-hover);
+  color: white;
+}
+
+
+.container {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+body {
+  overflow-y: hidden;
+  color: #fff;
+  background: #17181c;
+  font: 300 1em 'Fira Sans', sans-serif;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  min-width: 160px; 
+}
