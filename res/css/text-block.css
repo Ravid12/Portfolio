@@ -22,7 +22,7 @@ keyword {
     font-size: 18px;
 }
 
-.table-title {
+.table-title {    
     font-weight: bold;
     color: var(--button-default)
 }
@@ -32,7 +32,7 @@ keyword {
 }
 
 .table-row {
-    height: 30px;
+    vertical-align: top;    
     height: 80px;
 }
 
