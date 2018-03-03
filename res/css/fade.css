@@ -1,7 +1,4 @@
 .fade-on-load {
-    font-size: 18px;
-    text-align: center;
-
     -webkit-animation: fadein .8s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein .8s; /* Firefox < 16 */
         -ms-animation: fadein .8s; /* Internet Explorer */
@@ -19,7 +16,7 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-    
+
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
