@@ -1,6 +1,6 @@
 :root {
-    --button-hover: #0D0DA4;
-    --button-default: #4C4CC8;
+    --button-hover: #2929AB;
+    --button-default: #5E5ED0;
     --background-default: #17181c;
     --header-background: #333;    
   }
@@ -42,4 +42,11 @@ a:hover {
 
 a:link {
     color: white;
+}
+
+.project-name {
+    color: var(--button-hover);
+    font-size: 24px;
+    font-weight: bold;    
+    text-align: left;
 }
