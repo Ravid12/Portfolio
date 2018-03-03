@@ -1,3 +1,11 @@
+:root {
+    --button-hover: #0D0DA4;
+    --button-default: #4C4CC8;
+    --background-default: #17181c;
+    --header-background: #333;    
+  }
+  
+
 .text {
     padding-left: 25%;
     padding-right: 25%;
@@ -7,7 +15,7 @@
 
 keyword {
     font-weight: bold;
-    color: #20c20e
+    color: var(--button-hover)
 }
 
 .table {
@@ -30,4 +38,8 @@ a:visited {
 
 a:hover {
     color: blueviolet;
+}
+
+a:link {
+    color: white;
 }
