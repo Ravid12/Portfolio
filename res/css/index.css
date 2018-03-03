@@ -1,11 +1,14 @@
-h1 {
-    margin: -10px;
-    font-size: 80px;
-    font-weight: normal;  
+body, html{
+    margin:0;
+    padding:0;
 }
-  
-hr {
-    max-width: 100px;
+
+body {
+    overflow-y: hidden;
+    color: #fff;
+    background: #17181c;
+    font: 300 1em 'Fira Sans', sans-serif;
+    
 }
 
 /* Add a black background color to the top navigation */
@@ -16,6 +19,7 @@ hr {
 
 /* Style the links inside the navigation bar */
 .topnav a {
+    transition: all .4s ease;    
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -36,7 +40,37 @@ hr {
     color: white;
 }
 
-body, html{
-    margin:0;
-    padding:0;
-  }
+
+  
+
+.container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+  
+h1 {
+    margin: -10px;
+    font-size: 80px;
+    font-weight: normal;  
+}
+  
+hr {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+  
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    min-width: 160px; 
+}

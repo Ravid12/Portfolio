@@ -20,30 +20,3 @@
   border-color: var(--button-hover);
   color: white;
 }
-
-
-.container {
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  display: flex;
-}
-
-body {
-  overflow-y: hidden;
-  color: #fff;
-  background: #17181c;
-  font: 300 1em 'Fira Sans', sans-serif;
-}
-
-button {
-  background: none;
-  border: 2px solid;
-  font: inherit;
-  line-height: 1;
-  margin: 0.5em;
-  padding: 1em 2em;
-  min-width: 160px; 
-}
