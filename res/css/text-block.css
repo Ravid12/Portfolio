@@ -15,21 +15,25 @@
 
 keyword {
     font-weight: bold;
-    color: var(--button-hover)
+    color: var(--button-default)
 }
 
-.table {
-    text-align: left;    
+.table {    
     font-size: 18px;
 }
 
+.table-title {
+    font-weight: bold;
+    color: var(--button-default)
+}
+
 .table-link {
-    padding-left: 30px;
     color: white;
 }
 
 .table-row {
     height: 30px;
+    height: 80px;
 }
 
 a:visited {
@@ -44,8 +48,12 @@ a:link {
     color: white;
 }
 
+.project{
+    margin-bottom: 50px;
+}
+
 .project-name {
-    color: var(--button-hover);
+    color: var(--button-default);
     font-size: 24px;
     font-weight: bold;    
     text-align: left;
