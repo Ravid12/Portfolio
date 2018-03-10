@@ -16,11 +16,10 @@ body {
     color: #fff;
     background: var(--background-default);
     font: 300 1em 'Fira Sans', sans-serif;
-    
 }
 
 #resume {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 /* Add a black background color to the top navigation */
@@ -63,7 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    max-height: 90vh;
+    height: 90vh;
     display: grid;
 }
 
