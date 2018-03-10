@@ -6,13 +6,6 @@
   }
   
 
-.text {
-    padding-left: 25%;
-    padding-right: 25%;
-    text-align: justify;    
-    font-size: 18px;
-}
-
 keyword {
     font-weight: bold;
     color: var(--button-default)
@@ -48,13 +41,36 @@ a:link {
     color: white;
 }
 
-.project{
+.section-container{
+    min-width: 30%;
     margin-bottom: 50px;
 }
 
-.project-name {
+.section-title {
     color: var(--button-default);
     font-size: 24px;
     font-weight: bold;    
     text-align: left;
+    padding-bottom: 20px;
+    
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.section-text {
+    text-align: justify;    
+    font-size: 18px;
+}
+
+.section-container hr {
+    text-align: left;
+    margin-top: -5px;
+    margin-left: 0;
+    max-width: 120px;
+}
+
+subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
