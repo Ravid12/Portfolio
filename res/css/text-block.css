@@ -46,6 +46,12 @@ a:link {
     margin-bottom: 50px;
 }
 
+.project{
+    min-width: 30%;
+    margin-bottom: 100px;
+    height: 300px;
+}
+
 .section-title {
     color: var(--button-default);
     font-size: 24px;
@@ -73,3 +79,5 @@ subtitle {
     font-weight: bold;
     font-style: italic;
 }
+
+

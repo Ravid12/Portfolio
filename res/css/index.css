@@ -18,18 +18,6 @@ body {
     font: 300 1em 'Fira Sans', sans-serif;  
 }
 
-.resume {
-    padding-top: 10px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    max-height: 90vh;
-    overflow-y: auto;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: var(--header-background);
@@ -59,6 +47,17 @@ body {
     color: white;
 }
 
+.scroll-page {
+    padding-top: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-height: 91vh;
+    overflow-y: auto;
+}
 
 .container {
     justify-content: center;
@@ -98,22 +97,30 @@ button {
     min-width: 160px; 
 }
 
-.resume::-webkit-scrollbar-track
+.scroll-page::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
 	background-color: var(--header-background);
 }
 
-.resume::-webkit-scrollbar
+.scroll-page::-webkit-scrollbar
 {
 	width: 12px;
 	background-color: var(--header-background);
 }
 
-.resume::-webkit-scrollbar-thumb
+.scroll-page::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: var(--button-default);
 }
+
+img {
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
